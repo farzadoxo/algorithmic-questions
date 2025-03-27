@@ -1,6 +1,7 @@
-user_input = int(input("Enter round of codecup bootcamp :"))
+r = int(input())
 
 def codecup_reminder(round:int):
-    return "Hello CodeCup {}!".format(round)
+    if round >= 1 and round <= 100 :
+        return f"Hello CodeCup {round}!"
 
-print(codecup_reminder(user_input))
+print(codecup_reminder(r))
