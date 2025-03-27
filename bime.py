@@ -1,5 +1,4 @@
-s = input("Enter name of samanoo brand :")
-
+s = input()
 
 def bime_checker(name:str):
     list_of_char = []
@@ -12,10 +11,5 @@ def bime_checker(name:str):
                     return 'No'
                 else:
                     return 'Yes'
-            else:
-                return ValueError("Name of brand have uppercase character !!!") 
-    else:
-        return ValueError("Length of brand is grater then 20 character !!!")
-
 
 print(bime_checker(s))
