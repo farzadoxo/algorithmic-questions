@@ -1,4 +1,3 @@
-n = int(input())
 
 def counter(number:int):
     numbers = list(range(1, number + 1))
@@ -8,5 +7,3 @@ def counter(number:int):
     else:
         if number >= 1 and number <= 1000:
             return " + ".join(map(str, numbers)) + " = " + str(total)
-
-print(counter(n))

@@ -1,3 +1,4 @@
+
 def plus_one(digits:list[int]) -> list[int]:
         res = ""
         res2 = 0
@@ -9,4 +10,3 @@ def plus_one(digits:list[int]) -> list[int]:
         for j in str(res2):
             lst.append(int(j))
         return lst
-

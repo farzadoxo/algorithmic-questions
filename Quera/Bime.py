@@ -1,4 +1,3 @@
-s = input()
 
 def bime_checker(name:str):
     list_of_char = []
@@ -11,5 +10,3 @@ def bime_checker(name:str):
                     return 'No'
                 else:
                     return 'Yes'
-
-print(bime_checker(s))

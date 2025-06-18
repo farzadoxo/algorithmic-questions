@@ -1,5 +1,3 @@
-num_list = [121,-121,10]
-
 
 def palindrome_number(num:int) -> bool:
     n = ""
@@ -13,9 +11,3 @@ def palindrome_number(num:int) -> bool:
         return True
     else:
         return False
-
-
-
-if __name__ == "__main__":
-    for i in num_list:
-        print(palindrome_number(num=i))
