@@ -6,6 +6,3 @@ def reverse_word(n:int,words:str):
         word_list = words.split(" ")
         word_list.reverse()
         return " ".join(word_list)
-
-
-print(reverse_word(n=int(input()),words=input()))
